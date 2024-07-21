@@ -758,7 +758,9 @@ img {
 }
 
 .model-check-text span {
-   
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -768,9 +770,7 @@ img {
 }
 
 .checkbox-span {
-    display: inline-flex;
-        align-items: center;
-        justify-content: center;
+    
 }
 
 
